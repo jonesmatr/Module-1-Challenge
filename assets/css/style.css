@@ -13,9 +13,13 @@ body {
 
 /* Styling for header section */
 .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #2a607c;
     color: #ffffff;
     padding: 20px;
+    
 }
 
 /* Styling for h1 element inside header */
@@ -34,7 +38,7 @@ body {
     float: right;
     font-size: 20px;
     margin-right: 20px;
-    padding-top: 15px;
+    padding-top: 15px;    
 }
 
 /* Styling for ul inside div inside header */
@@ -46,6 +50,12 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
 }
 
 /* Styling for all anchor tags */
@@ -82,6 +92,7 @@ p {
 /* Styling for content section */
 .content {
     display: inline-block;
+    flex-grow: 0;
     margin-left: 20px;
     width: 75%;
 }
@@ -123,11 +134,11 @@ p {
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
-    background-color: #0072bb;
-    color: #ffffff;
-    height: 300px;
-    margin-bottom: 20px;
-    padding: 50px;
+  background-color: #0072bb;
+  color: #ffffff;
+  height: 300px;
+  margin: 0 20px 20px 0;
+  padding: 50px;
 }
 
 /* Styling for specific elements inside sections with class names */
@@ -155,3 +166,60 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    /* Styling for sections with specific class names */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    background-color: #0072bb;
+    color: #ffffff;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+    
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        flex-grow: 0;
+        
+    }
+
+    div {
+        justify-content: center;
+    }
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        flex: 1 0 100%;
+        justify-content: center;
+        background-color: #0072bb;
+        color: #ffffff;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 50px;
+    }
+
+        .benefits {
+        justify-content: center;
+        height: auto;
+        margin: 0 auto 20px auto;
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .search-engine-optimization img,
+    .online-reputation-management img,
+    .social-media-marketing img {
+        justify-content: center;
+    }
+
+   
+}
+ 
