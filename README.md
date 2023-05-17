@@ -32,7 +32,7 @@ The website is also fully responsive and can be viewed seamlessly on devices of 
 
 ## Credits
 
-This project was created using HTML and CSS and was based on a starter code provided by the University of Texas at Austin Coding Boot Camp. 
+This project was created using HTML and CSS and was based on a starter code provided by the University of Richmond Coding Boot Camp. 
 
 ## License
 
