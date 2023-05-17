@@ -2,7 +2,7 @@
 
 This is a responsive website for Horiseon, a marketing agency that specializes in SEO, Online Reputation Management and Social Media Marketing. The site has articles explaining each of these topics in detail as well as their benefits. 
 
-The site can be accessed [here](https://github.com/jonesmatr/Module-1-Challenge).
+The site can be accessed [here](https://jonesmatr.github.io/Module-1-Challenge/).
 
 ![Horiseon Website Preview](./assets/images/01-html-css-git-homework-demo.png)
 
