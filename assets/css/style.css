@@ -208,6 +208,7 @@ p {
     .social-media-marketing {
         flex: 1 0 auto;
         justify-content: center;
+        text-align: center;
         height: auto;
         margin-bottom: 20px;
         padding: 50px;
